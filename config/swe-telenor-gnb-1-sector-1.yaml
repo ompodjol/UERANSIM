@@ -7,9 +7,9 @@ nci: '0x000000011'  # NR Cell Identity (36-bit) - gnodeB = 16, sector id = 2
 idLength: 32        # NR gNB ID length in bits [22...32]
 tac: 1              # Tracking Area Code
 
-linkIp: 127.0.0.1   # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
-ngapIp: 127.0.0.1   # gNB's local IP address for N2 Interface (Usually same with local IP)
-gtpIp: 127.0.0.1    # gNB's local IP address for N3 Interface (Usually same with local IP)
+linkIp: 127.0.0.51   # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
+ngapIp: 127.0.0.51   # gNB's local IP address for N2 Interface (Usually same with local IP)
+gtpIp: 127.0.0.51    # gNB's local IP address for N3 Interface (Usually same with local IP)
 
 # List of AMF address information
 amfConfigs:
