@@ -20,3 +20,8 @@ slices:
 
 # Indicates whether or not SCTP stream number errors should be ignored.
 ignoreStreamIds: true
+
+# Custom parameters for geographical location
+location:
+  latitude: 59.5194    # Latitude of the gNodeB
+  longitude: 17.9279   # Longitude of the gNodeB
