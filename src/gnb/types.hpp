@@ -313,6 +313,8 @@ struct GnbConfig
     std::string ngapIp{};
     std::string gtpIp{};
     std::optional<std::string> gtpAdvertiseIp{};
+    std::string latitude{};
+    std::string longitude{};
     bool ignoreStreamIds{};
 
     /* Assigned by program */
