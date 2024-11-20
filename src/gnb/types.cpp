@@ -31,6 +31,8 @@ Json ToJson(const GnbConfig &v)
         {"gtp-ip", v.gtpIp},
         {"paging-drx", ToJson(v.pagingDrx)},
         {"ignore-sctp-id", v.ignoreStreamIds},
+        {"latitude", v.latitude},
+        {"longitude", v.longitude},
     });
 }
 
